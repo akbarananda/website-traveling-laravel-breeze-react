@@ -16,6 +16,11 @@ use Inertia\Inertia;
 |
 */
 
+Route::get('/homelogin', function () {
+    return Inertia::render('HomePageLogin'
+    );
+});
+
 Route::get('/forgot', function () {
     return Inertia::render('ForgotPage'
     );
