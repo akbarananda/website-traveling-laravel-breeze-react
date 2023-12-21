@@ -8,7 +8,7 @@ import AdventureComponent from './AdventureComponent'
 import PopularContent from './PopularContent'
 import FooterComponent from './FooterComponent'
 import Footer2Component from './Footer2Component'
-
+import {Head } from '@inertiajs/react';
 
 const HomeComponent = () => {
   return (

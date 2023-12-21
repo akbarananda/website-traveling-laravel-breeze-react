@@ -16,6 +16,11 @@ use Inertia\Inertia;
 |
 */
 
+// Route::get('/test', function () {
+//     return Inertia::render('test'
+//     );
+// });
+
 Route::get('/homelogin', function () {
     return Inertia::render('HomePageLogin'
     );

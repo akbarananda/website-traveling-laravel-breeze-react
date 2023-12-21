@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, Head } from "@inertiajs/react";
 import logo from "@/assets/img/logo.png";
-import AboutComponent from "./AboutComponent";
 
 const NavbarComponent = () => {
     return (
@@ -12,7 +11,7 @@ const NavbarComponent = () => {
                     <div className="md:flex md:items-center md:gap-3">
                             <img
                                 src={logo}
-                                className="ml-3 h-6 sm:h-9"
+                                className="ml-3 h-6 sm:h-14"
                                 alt="Flowbite React Logo"
                             />
                             <a

@@ -14,7 +14,7 @@ const NavbarLoginComponent = () => {
                         <div className="md:flex md:items-center md:gap-3">
                             <img
                                 src={logo}
-                                className="ml-3 h-6 sm:h-9"
+                                className="ml-3 h-6 sm:h-14"
                                 alt="Flowbite React Logo"
                             />
                             <a
